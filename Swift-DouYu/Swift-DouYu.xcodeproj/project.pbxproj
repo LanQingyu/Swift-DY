@@ -99,7 +99,6 @@
 			children = (
 				18DAC04523263B40005AC7E8 /* Classes */,
 				18714B3A231D004D00713D61 /* AppDelegate.swift */,
-				18714B3E231D004D00713D61 /* Main.storyboard */,
 				18714B44231D005400713D61 /* Assets.xcassets */,
 				18714B46231D005500713D61 /* LaunchScreen.storyboard */,
 				18714B49231D005500713D61 /* Info.plist */,
@@ -177,6 +176,7 @@
 		18DAC04B23263B40005AC7E8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18714B3E231D004D00713D61 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
