@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18714B3B231D004D00713D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18714B3A231D004D00713D61 /* AppDelegate.swift */; };
-		18714B3D231D004D00713D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18714B3C231D004D00713D61 /* ViewController.swift */; };
 		18714B40231D004D00713D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18714B3E231D004D00713D61 /* Main.storyboard */; };
 		18714B43231D004D00713D61 /* Swift_DouYu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18714B41231D004D00713D61 /* Swift_DouYu.xcdatamodeld */; };
 		18714B45231D005400713D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18714B44231D005400713D61 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		18714B37231D004D00713D61 /* Swift-DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-DouYu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18714B3A231D004D00713D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18714B3C231D004D00713D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18714B3F231D004D00713D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18714B42231D004D00713D61 /* Swift_DouYu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swift_DouYu.xcdatamodel; sourceTree = "<group>"; };
 		18714B44231D005400713D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +97,8 @@
 		18714B39231D004D00713D61 /* Swift-DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				18DAC04523263B40005AC7E8 /* Classes */,
 				18714B3A231D004D00713D61 /* AppDelegate.swift */,
-				18714B3C231D004D00713D61 /* ViewController.swift */,
 				18714B3E231D004D00713D61 /* Main.storyboard */,
 				18714B44231D005400713D61 /* Assets.xcassets */,
 				18714B46231D005500713D61 /* LaunchScreen.storyboard */,
@@ -126,6 +124,61 @@
 				18714B5F231D005500713D61 /* Info.plist */,
 			);
 			path = "Swift-DouYuUITests";
+			sourceTree = "<group>";
+		};
+		18DAC04523263B40005AC7E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18DAC04B23263B40005AC7E8 /* Main */,
+				18DAC04623263B40005AC7E8 /* Home */,
+				18DAC04A23263B40005AC7E8 /* Live */,
+				18DAC04823263B40005AC7E8 /* Follow */,
+				18DAC04723263B40005AC7E8 /* Tools */,
+				18DAC04923263B40005AC7E8 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18DAC04623263B40005AC7E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18DAC04723263B40005AC7E8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18DAC04823263B40005AC7E8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		18DAC04923263B40005AC7E8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18DAC04A23263B40005AC7E8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		18DAC04B23263B40005AC7E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18714B3D231D004D00713D61 /* ViewController.swift in Sources */,
 				18714B3B231D004D00713D61 /* AppDelegate.swift in Sources */,
 				18714B43231D004D00713D61 /* Swift_DouYu.xcdatamodeld in Sources */,
 			);
