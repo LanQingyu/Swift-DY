@@ -14,6 +14,11 @@
 		18714B48231D005500713D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18714B46231D005500713D61 /* LaunchScreen.storyboard */; };
 		18714B53231D005500713D61 /* Swift_DouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18714B52231D005500713D61 /* Swift_DouYuTests.swift */; };
 		18714B5E231D005500713D61 /* Swift_DouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18714B5D231D005500713D61 /* Swift_DouYuUITests.swift */; };
+		18AEF9C9232F6F2400E33F1C /* TuiJian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9C8232F6F2400E33F1C /* TuiJian.storyboard */; };
+		18AEF9CB232F6F7A00E33F1C /* YuLe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9CA232F6F7A00E33F1C /* YuLe.storyboard */; };
+		18AEF9CD232F6FB400E33F1C /* GuanZhu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9CC232F6FB400E33F1C /* GuanZhu.storyboard */; };
+		18AEF9CF232F6FD900E33F1C /* YuBa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9CE232F6FD900E33F1C /* YuBa.storyboard */; };
+		18AEF9D1232F6FFB00E33F1C /* FaXian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9D0232F6FFB00E33F1C /* FaXian.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		18714B59231D005500713D61 /* Swift-DouYuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-DouYuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18714B5D231D005500713D61 /* Swift_DouYuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DouYuUITests.swift; sourceTree = "<group>"; };
 		18714B5F231D005500713D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AEF9C8232F6F2400E33F1C /* TuiJian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TuiJian.storyboard; sourceTree = "<group>"; };
+		18AEF9CA232F6F7A00E33F1C /* YuLe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YuLe.storyboard; sourceTree = "<group>"; };
+		18AEF9CC232F6FB400E33F1C /* GuanZhu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GuanZhu.storyboard; sourceTree = "<group>"; };
+		18AEF9CE232F6FD900E33F1C /* YuBa.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YuBa.storyboard; sourceTree = "<group>"; };
+		18AEF9D0232F6FFB00E33F1C /* FaXian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FaXian.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,52 +135,65 @@
 			path = "Swift-DouYuUITests";
 			sourceTree = "<group>";
 		};
-		18DAC04523263B40005AC7E8 /* Classes */ = {
+		18AEF9C2232F6BB300E33F1C /* GuanZhu */ = {
 			isa = PBXGroup;
 			children = (
-				18DAC04B23263B40005AC7E8 /* Main */,
-				18DAC04623263B40005AC7E8 /* Home */,
-				18DAC04A23263B40005AC7E8 /* Live */,
-				18DAC04823263B40005AC7E8 /* Follow */,
-				18DAC04723263B40005AC7E8 /* Tools */,
-				18DAC04923263B40005AC7E8 /* Profile */,
+				18AEF9CC232F6FB400E33F1C /* GuanZhu.storyboard */,
 			);
-			path = Classes;
+			path = GuanZhu;
 			sourceTree = "<group>";
 		};
-		18DAC04623263B40005AC7E8 /* Home */ = {
+		18AEF9C3232F6BB300E33F1C /* YuLe */ = {
 			isa = PBXGroup;
 			children = (
+				18AEF9CA232F6F7A00E33F1C /* YuLe.storyboard */,
 			);
-			path = Home;
+			path = YuLe;
 			sourceTree = "<group>";
 		};
-		18DAC04723263B40005AC7E8 /* Tools */ = {
+		18AEF9C4232F6BB300E33F1C /* FaXian */ = {
+			isa = PBXGroup;
+			children = (
+				18AEF9D0232F6FFB00E33F1C /* FaXian.storyboard */,
+			);
+			path = FaXian;
+			sourceTree = "<group>";
+		};
+		18AEF9C5232F6BB300E33F1C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		18DAC04823263B40005AC7E8 /* Follow */ = {
+		18AEF9C6232F6BB300E33F1C /* TuiJian */ = {
 			isa = PBXGroup;
 			children = (
+				18AEF9C8232F6F2400E33F1C /* TuiJian.storyboard */,
 			);
-			path = Follow;
+			path = TuiJian;
 			sourceTree = "<group>";
 		};
-		18DAC04923263B40005AC7E8 /* Profile */ = {
+		18AEF9C7232F6BB300E33F1C /* YuBa */ = {
 			isa = PBXGroup;
 			children = (
+				18AEF9CE232F6FD900E33F1C /* YuBa.storyboard */,
 			);
-			path = Profile;
+			path = YuBa;
 			sourceTree = "<group>";
 		};
-		18DAC04A23263B40005AC7E8 /* Live */ = {
+		18DAC04523263B40005AC7E8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18DAC04B23263B40005AC7E8 /* Main */,
+				18AEF9C6232F6BB300E33F1C /* TuiJian */,
+				18AEF9C3232F6BB300E33F1C /* YuLe */,
+				18AEF9C2232F6BB300E33F1C /* GuanZhu */,
+				18AEF9C7232F6BB300E33F1C /* YuBa */,
+				18AEF9C4232F6BB300E33F1C /* FaXian */,
+				18AEF9C5232F6BB300E33F1C /* Tools */,
 			);
-			path = Live;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		18DAC04B23263B40005AC7E8 /* Main */ = {
@@ -286,8 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18714B48231D005500713D61 /* LaunchScreen.storyboard in Resources */,
+				18AEF9CF232F6FD900E33F1C /* YuBa.storyboard in Resources */,
 				18714B45231D005400713D61 /* Assets.xcassets in Resources */,
+				18AEF9CB232F6F7A00E33F1C /* YuLe.storyboard in Resources */,
+				18AEF9CD232F6FB400E33F1C /* GuanZhu.storyboard in Resources */,
 				18714B40231D004D00713D61 /* Main.storyboard in Resources */,
+				18AEF9C9232F6F2400E33F1C /* TuiJian.storyboard in Resources */,
+				18AEF9D1232F6FFB00E33F1C /* FaXian.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

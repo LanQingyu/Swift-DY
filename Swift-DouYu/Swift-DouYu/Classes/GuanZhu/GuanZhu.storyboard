@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="syJ-jH-fDH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="raT-DH-iF4">
+            <objects>
+                <viewController id="RPr-C5-e6y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YTB-l5-FWe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wTy-OB-uSa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hYE-US-X9v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hff-Ya-Ju6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1858" y="2155"/>
+        </scene>
+        <!--关注-->
+        <scene sceneID="Rn8-Zf-vCZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="syJ-jH-fDH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="tabFocus" selectedImage="tabFocusHL" id="INC-3q-8Uc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oG0-3d-tmG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RPr-C5-e6y" kind="relationship" relationship="rootViewController" id="mzU-C0-dNf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1QY-zr-6al" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2768" y="2155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabFocus" width="32" height="32"/>
+        <image name="tabFocusHL" width="32" height="32"/>
+    </resources>
+</document>
