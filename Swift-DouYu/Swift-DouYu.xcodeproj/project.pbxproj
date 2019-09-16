@@ -19,6 +19,7 @@
 		18AEF9CD232F6FB400E33F1C /* GuanZhu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9CC232F6FB400E33F1C /* GuanZhu.storyboard */; };
 		18AEF9CF232F6FD900E33F1C /* YuBa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9CE232F6FD900E33F1C /* YuBa.storyboard */; };
 		18AEF9D1232F6FFB00E33F1C /* FaXian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF9D0232F6FFB00E33F1C /* FaXian.storyboard */; };
+		18AEF9D9232F755800E33F1C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEF9D8232F755800E33F1C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		18AEF9CC232F6FB400E33F1C /* GuanZhu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GuanZhu.storyboard; sourceTree = "<group>"; };
 		18AEF9CE232F6FD900E33F1C /* YuBa.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YuBa.storyboard; sourceTree = "<group>"; };
 		18AEF9D0232F6FFB00E33F1C /* FaXian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FaXian.storyboard; sourceTree = "<group>"; };
+		18AEF9D8232F755800E33F1C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				18714B3E231D004D00713D61 /* Main.storyboard */,
+				18AEF9D8232F755800E33F1C /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AEF9D9232F755800E33F1C /* MainViewController.swift in Sources */,
 				18714B3B231D004D00713D61 /* AppDelegate.swift in Sources */,
 				18714B43231D004D00713D61 /* Swift_DouYu.xcdatamodeld in Sources */,
 			);
